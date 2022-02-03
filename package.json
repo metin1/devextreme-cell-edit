@@ -1,0 +1,27 @@
+{
+  "name": "Cell Editing and Editing API - DevExtreme Data Grid",
+  "description": "Users can modify DataGrid data cell by cell. In this mode, only one cell can be in the edit state at a time. DataGrid saves changes immediately after the focus leaves cell.\nTo enable the cell mode, do the following:\n\nSet the editing.mode to \"cell\".\nAssign true to the editing object's allowUpdating, allowAdding, and allowDeleting properties.\n\nThis demo also shows how to delete selected records. Review the onSelectionChanged and deleteRecords functions for implementation details.\n",
+  "dependencies": {
+    "vue": "3.0.0",
+    "rrule": "2.6.6",
+    "mitt": "latest",
+    "luxon": "1.28.0",
+    "jszip": "3.7.1",
+    "inferno-hydrate": "7.4.11",
+    "inferno-extras": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno": "7.4.11",
+    "es6-object-assign": "1.1.0",
+    "dx-systemjs-vue-browser": "1.0.15",
+    "devextreme-vue": "21.2.5",
+    "devextreme-quill": "1.5.11",
+    "devextreme": "21.2.5",
+    "devexpress-gantt": "4.0.3",
+    "devexpress-diagram": "2.1.45",
+    "@devextreme/runtime": "2.3.14"
+  }
+}
